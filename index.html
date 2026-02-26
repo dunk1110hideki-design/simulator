@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>H_a_L Works</title>
+
+  <link rel="stylesheet" href="assets/css/index.css" />
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+
+<body>
+  <!-- =========================================================
+  Hero
+  ========================================================== -->
+  <header class="hero" id="top">
+    <div class="hero__bg"></div>
+
+    <div class="container hero__inner">
+      <div class="hero__brand"><img src="assets/img/hero__brand.png" alt=""></div>
+      <h1 class="hero__title">ビジネスを加速させる</h1>
+      <p class="hero__lead">
+        デザインと実装をまとめて、成果につながるサイトをスピーディに制作。
+      </p>
+
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="#simulator">見積もりシミュレーターへ</a>
+        <a class="btn btn--ghost" href="#works">制作実績を見る</a>
+      </div>
+
+      <div class="hero__scroll">
+        <a class="hero__scrollLink" href="#services" aria-label="scroll">
+          <span class="hero__scrollText">Scroll</span>
+          <span class="hero__scrollLine" aria-hidden="true"></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================
+    Services
+    ========================================================== -->
+    <section class="services" id="services">
+      <div class="container">
+        <header class="services__head">
+          <h2 class="services__title">サービス内容</h2>
+          <p class="services__lead">
+            企画から運用まで、Webサイト制作に必要なすべてをワンストップで提供します。
+          </p>
+        </header>
+
+        <div class="servicesGrid">
+          <article class="serviceCard2">
+            <div class="serviceCard2__icon serviceCard2__icon--blue" aria-hidden="true"></div>
+            <h3 class="serviceCard2__title">戦略的企画</h3>
+            <p class="serviceCard2__text">ビジネス目標を達成するための最適なWeb戦略を立案します。</p>
+          </article>
+
+          <article class="serviceCard2">
+            <div class="serviceCard2__icon serviceCard2__icon--purple" aria-hidden="true"></div>
+            <h3 class="serviceCard2__title">デザイン設計</h3>
+            <p class="serviceCard2__text">ユーザー体験を重視した、美しく使いやすいデザインを提供します。</p>
+          </article>
+
+          <article class="serviceCard2">
+            <div class="serviceCard2__icon serviceCard2__icon--green" aria-hidden="true"></div>
+            <h3 class="serviceCard2__title">高品質な開発</h3>
+            <p class="serviceCard2__text">最新技術を活用し、高速で安定したWebサイトを構築します。</p>
+          </article>
+
+          <article class="serviceCard2">
+            <div class="serviceCard2__icon serviceCard2__icon--orange" aria-hidden="true"></div>
+            <h3 class="serviceCard2__title">データ分析</h3>
+            <p class="serviceCard2__text">アクセス解析と改善提案で、継続的な成果向上を支援します。</p>
+          </article>
+
+          <article class="serviceCard2">
+            <div class="serviceCard2__icon serviceCard2__icon--yellow" aria-hidden="true"></div>
+            <h3 class="serviceCard2__title">高速納品</h3>
+            <p class="serviceCard2__text">無駄を省いた効率的な制作フローで、スピーディーに納品します。</p>
+          </article>
+
+          <article class="serviceCard2">
+            <div class="serviceCard2__icon serviceCard2__icon--pink" aria-hidden="true"></div>
+            <h3 class="serviceCard2__title">運用サポート</h3>
+            <p class="serviceCard2__text">公開後も安心。継続的な運用とメンテナンスをサポートします。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+    Works
+    ========================================================== -->
+    <section class="section" id="works">
+      <div class="container">
+        <h2 class="section__title">制作実績</h2>
+        <p class="section__sub">様々な業界のクライアント様に、成果を出すWebサイトを提供してきました。</p>
+
+        <div class="worksGrid">
+          <!-- Card 1 -->
+          <a class="workCard" href="#" target="_blank" rel="noopener">
+            <div class="workCard__thumb" style="background-image:url('assets/img/work1.jpeg');"></div>
+
+            <div class="workCard__body">
+              <div class="workCard__metric">
+                <span class="workCard__metricIcon" aria-hidden="true">↗</span>
+                <span class="workCard__metricText">CVR +150%</span>
+              </div>
+
+              <h3 class="workCard__title">ECサイトリニューアル</h3>
+              <p class="workCard__client">株式会社A様</p>
+              <p class="workCard__text">ユーザビリティを向上させ、CVRを150%改善</p>
+
+              <div class="workCard__tags">
+                <span class="tag">EC</span>
+                <span class="tag">レスポンシブ</span>
+                <span class="tag">SEO</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Card 2 -->
+          <a class="workCard" href="#" target="_blank" rel="noopener">
+            <div class="workCard__thumb" style="background-image:url('assets/img/work2.jpeg');"></div>
+
+            <div class="workCard__body">
+              <div class="workCard__metric">
+                <span class="workCard__metricIcon" aria-hidden="true">↗</span>
+                <span class="workCard__metricText">問い合わせ +200%</span>
+              </div>
+
+              <h3 class="workCard__title">コーポレートサイト制作</h3>
+              <p class="workCard__client">B株式会社様</p>
+              <p class="workCard__text">ブランドイメージを刷新し、問い合わせ数が2倍に</p>
+
+              <div class="workCard__tags">
+                <span class="tag">コーポレート</span>
+                <span class="tag">CMS</span>
+                <span class="tag">アニメーション</span>
+              </div>
+            </div>
+          </a>
+
+          <!-- Card 3 -->
+          <a class="workCard" href="#" target="_blank" rel="noopener">
+            <div class="workCard__thumb" style="background-image:url('assets/img/work3.jpeg');"></div>
+
+            <div class="workCard__body">
+              <div class="workCard__metric">
+                <span class="workCard__metricIcon" aria-hidden="true">↗</span>
+                <span class="workCard__metricText">申込率 +300%</span>
+              </div>
+
+              <h3 class="workCard__title">サービスLP制作</h3>
+              <p class="workCard__client">C株式会社様</p>
+              <p class="workCard__text">戦略的な構成で、申込率を3倍に向上</p>
+
+              <div class="workCard__tags">
+                <span class="tag">LP</span>
+                <span class="tag">A/Bテスト</span>
+                <span class="tag">広告連携</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+    Pricing
+    ========================================================== -->
+    <section class="pricing2" id="pricing">
+      <div class="container">
+        <header class="pricing2__head">
+          <h2 class="pricing2__title">料金プラン</h2>
+          <p class="pricing2__lead">プロジェクトの規模に応じて、最適なプランをお選びいただけます。</p>
+        </header>
+
+        <div class="pricing2Grid">
+          <article class="planCard" data-plan="light">
+            <h3 class="planCard__name">ライト</h3>
+            <p class="planCard__desc">シンプルなサイトに最適</p>
+            <p class="planCard__price">
+              <span class="planCard__yen">¥150,000</span><span class="planCard__tilde">〜</span>
+            </p>
+            <ul class="planCard__list">
+              <li>最大5ページ</li>
+              <li>レスポンシブデザイン</li>
+              <li>基本的なSEO対策</li>
+              <li>お問い合わせフォーム</li>
+              <li>1ヶ月サポート</li>
+            </ul>
+            <button class="planCard__btn planCard__btn--ghost" type="button" data-plan="light">
+              このプランで見積もる
+            </button>
+          </article>
+
+          <article class="planCard planCard--featured" data-plan="standard">
+            <div class="planCard__badge">人気No.1</div>
+            <h3 class="planCard__name">スタンダード</h3>
+            <p class="planCard__desc">ビジネスサイトに最適</p>
+            <p class="planCard__price">
+              <span class="planCard__yen">¥300,000</span><span class="planCard__tilde">〜</span>
+            </p>
+            <ul class="planCard__list">
+              <li>最大15ページ</li>
+              <li>レスポンシブデザイン</li>
+              <li>高度なSEO対策</li>
+              <li>CMS導入</li>
+              <li>アニメーション実装</li>
+              <li>お問い合わせフォーム</li>
+              <li>3ヶ月サポート</li>
+            </ul>
+            <button class="planCard__btn planCard__btn--ghost" type="button" data-plan="standard">
+              このプランで見積もる
+            </button>
+          </article>
+
+          <article class="planCard" data-plan="premium">
+            <h3 class="planCard__name">プレミアム</h3>
+            <p class="planCard__desc">本格的なWebサイトに</p>
+            <p class="planCard__price">
+              <span class="planCard__yen">¥500,000</span><span class="planCard__tilde">〜</span>
+            </p>
+            <ul class="planCard__list">
+              <li>ページ数無制限</li>
+              <li>レスポンシブデザイン</li>
+              <li>最高レベルのSEO対策</li>
+              <li>CMS導入</li>
+              <li>高度なアニメーション</li>
+              <li>外部API連携</li>
+              <li>データ分析ダッシュボード</li>
+              <li>6ヶ月サポート</li>
+            </ul>
+            <button class="planCard__btn planCard__btn--ghost" type="button" data-plan="premium">
+              このプランで見積もる
+            </button>
+          </article>
+        </div>
+
+        <p class="pricing2__note">
+          ※ 上記は基本料金の目安です。詳細なお見積もりは下記シミュレーターをご利用ください。
+        </p>
+      </div>
+    </section>
+
+    <!-- =========================================================
+    Simulator (Vue Mount)
+    ========================================================== -->
+    <section class="section section--dark" id="simulator">
+      <div class="container">
+        <!-- Vueがここに描画する -->
+        <div id="app-simulator"></div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+    Contact
+    ========================================================== -->
+    <section class="contact2" id="contact">
+      <div class="container">
+        <header class="contact2__head">
+          <h2 class="contact2__title">お問い合わせ</h2>
+          <p class="contact2__lead">プロジェクトのご相談やお見積もりなど、お気軽にお問い合わせください。</p>
+        </header>
+
+        <div class="contact2Grid">
+          <!-- 左：連絡先 -->
+          <div class="contactInfo">
+            <article class="infoCard">
+              <div class="infoCard__icon infoCard__icon--blue" aria-hidden="true"></div>
+              <div class="infoCard__body">
+                <h3 class="infoCard__title">メール</h3>
+                <p class="infoCard__text">info@lumireworks.com</p>
+              </div>
+            </article>
+
+            <article class="infoCard">
+              <div class="infoCard__icon infoCard__icon--green" aria-hidden="true"></div>
+              <div class="infoCard__body">
+                <h3 class="infoCard__title">電話</h3>
+                <p class="infoCard__text">XX-XXXX-XXXX</p>
+                <p class="infoCard__sub">平日 10:00-18:00</p>
+              </div>
+            </article>
+
+            <article class="infoCard">
+              <div class="infoCard__icon infoCard__icon--purple" aria-hidden="true"></div>
+              <div class="infoCard__body">
+                <h3 class="infoCard__title">所在地</h3>
+                <p class="infoCard__text">東京都XX区</p>
+                <p class="infoCard__sub">XXXX1-2-3</p>
+              </div>
+            </article>
+          </div>
+
+          <!-- 右：フォーム -->
+          <div class="formCard">
+            <h3 class="formCard__title">お問い合わせフォーム</h3>
+
+            <form class="contactForm2">
+              <div class="field">
+                <label class="field__label">お名前 <span class="field__req">*</span></label>
+                <input class="field__input" type="text" placeholder="山田 太郎" required>
+              </div>
+
+              <div class="field">
+                <label class="field__label">会社名</label>
+                <input class="field__input" type="text" placeholder="株式会社サンプル">
+              </div>
+
+              <div class="field">
+                <label class="field__label">メールアドレス <span class="field__req">*</span></label>
+                <input class="field__input" type="email" placeholder="example@email.com" required>
+              </div>
+
+              <div class="field">
+                <label class="field__label">電話番号</label>
+                <input class="field__input" type="tel" placeholder="XX-XXXX-XXXX">
+              </div>
+
+              <!-- 見積もり引き継ぎ -->
+              <input type="hidden" name="estimate_summary" value="">
+
+              <div class="field">
+                <label class="field__label">お問い合わせ内容 <span class="field__req">*</span></label>
+                <textarea class="field__textarea" placeholder="お問い合わせ内容をご記入ください" required></textarea>
+              </div>
+
+              <button class="formCard__btn" type="submit">
+                送信する <span class="formCard__btnIcon" aria-hidden="true">➜</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+    FAQ
+    ========================================================== -->
+    <section class="faq2" id="faq">
+      <div class="container">
+        <header class="faq2__head">
+          <div class="faq2__icon" aria-hidden="true"></div>
+          <h2 class="faq2__title">よくある質問</h2>
+          <p class="faq2__lead">お客様からよくいただくご質問をまとめました。</p>
+        </header>
+
+        <div class="faq2List">
+          <details class="faq2Item">
+            <summary class="faq2Q">制作期間はどのくらいかかりますか？</summary>
+            <div class="faq2A">
+              <p>内容とページ数により変動しますが、LPは1〜2週間、複数ページは3〜6週間が目安です。</p>
+            </div>
+          </details>
+
+          <details class="faq2Item">
+            <summary class="faq2Q">制作費用の支払い方法は？</summary>
+            <div class="faq2A">
+              <p>銀行振込に対応しています。原則「着手金50%＋納品時50%」ですが、ご相談も可能です。</p>
+            </div>
+          </details>
+
+          <details class="faq2Item">
+            <summary class="faq2Q">修正は何回まで可能ですか？</summary>
+            <div class="faq2A">
+              <p>軽微修正は回数制限なく対応します。大幅な構成変更は別途お見積もりとなる場合があります。</p>
+            </div>
+          </details>
+
+          <details class="faq2Item">
+            <summary class="faq2Q">公開後のサポートはありますか？</summary>
+            <div class="faq2A">
+              <p>プランに応じてサポート期間があります。運用保守の継続プランもご用意できます。</p>
+            </div>
+          </details>
+
+          <details class="faq2Item">
+            <summary class="faq2Q">SEO対策も含まれていますか？</summary>
+            <div class="faq2A">
+              <p>基本的な内部SEO（構造化、タイトル設計、表示速度の最適化など）を含みます。</p>
+            </div>
+          </details>
+
+          <details class="faq2Item">
+            <summary class="faq2Q">CMSの操作は難しいですか？</summary>
+            <div class="faq2A">
+              <p>更新しやすい管理画面を設計し、簡単な操作マニュアルもお渡しします。</p>
+            </div>
+          </details>
+
+          <details class="faq2Item">
+            <summary class="faq2Q">スマホ対応は別料金ですか？</summary>
+            <div class="faq2A">
+              <p>全プランでレスポンシブ対応込みです。追加料金は不要です。</p>
+            </div>
+          </details>
+
+          <details class="faq2Item">
+            <summary class="faq2Q">既存サイトのリニューアルも対応できますか？</summary>
+            <div class="faq2A">
+              <p>可能です。現状の課題整理から情報設計まで一緒に進められます。</p>
+            </div>
+          </details>
+        </div>
+
+        <div class="faq2Foot">
+          <p>他にご質問がございましたら、お気軽にお問い合わせください。</p>
+          <a class="faq2Link" href="#contact">お問い合わせはこちら</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+  Footer
+  ========================================================== -->
+  <footer class="siteFooter">
+    <div class="container">
+      <div class="siteFooter__grid">
+        <div class="siteFooter__brand">
+          <div class="siteFooter__logo">
+            <span class="siteFooter__mark" aria-hidden="true"></span>
+            <span class="siteFooter__name">H _ a _ L design</span>
+          </div>
+          <p class="siteFooter__desc">
+            成果に直結するWeb制作で、<br>
+            あなたのビジネスを次のステージへ。
+          </p>
+        </div>
+
+        <div class="siteFooter__col">
+          <div class="siteFooter__title">クイックリンク</div>
+          <nav class="siteFooter__links">
+            <a href="#services">サービス</a>
+            <a href="#works">実績</a>
+            <a href="#pricing">料金</a>
+            <a href="#simulator">見積もり</a>
+          </nav>
+        </div>
+
+        <div class="siteFooter__col">
+          <div class="siteFooter__title">お問い合わせ</div>
+          <div class="siteFooter__contact">
+            <a href="mailto:info@lumireworks.com">info@h_a_lworks.com</a>
+            <a href="tel:0312345678">XX-XXXX-XXXX</a>
+            <div class="siteFooter__muted">平日 10:00-18:00</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="siteFooter__bottom">
+        <small class="siteFooter__copy">© 2026 H _ a _ L design. All rights reserved.</small>
+        <a class="siteFooter__top" href="#top">ページトップへ ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
